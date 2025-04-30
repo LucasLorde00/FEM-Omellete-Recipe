@@ -1,31 +1,24 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-html {
-    height: 100%;
 }
 
 body {
     background-color: bisque;
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    padding: 20px;
 }
 
 .main-div {
     background-color: white;
     border-radius: 20px;
-    min-height: auto;
-    width: 60dvw;
-    margin-top: 10dvh;
-}
-
-.sub-div {
-    padding: 40px;
+    width: 100%;
+    max-width: 700px;
+    padding: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
 .sub-div img {
@@ -36,80 +29,83 @@ body {
 }
 
 .initial-text {
+    margin: 30px 0;
     text-align: left;
-    text-justify: auto;
-    margin: 3dvh 0;
 }
 
 .initial-text strong {
     font-size: 30px;
+    display: block;
+    margin-bottom: 10px;
 }
 
 .initial-text p {
     font-size: 14px;
-    margin-top: 2dvh;
+    line-height: 1.6;
 }
 
 .preparation-time {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start; 
-    margin: 20px 0;
-    padding: 20px; 
-    border-radius: 10px;
-    width: 53.5dvw;
     background-color: rgba(255, 0, 234, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 30px 0;
 }
 
-.preparation-time h1{
-    font-size: 20px; 
+.preparation-time h1 {
+    font-size: 20px;
     color: purple;
-   margin: 10px 0px;
+    margin-bottom: 10px;
 }
 
-.preparation-time li {
-    margin: 15px 5px;
+.preparation-time ul {
+    list-style: disc inside;
 }
 
-hr {
-    width: 55dvw;
+.ingredients,
+.instructions,
+.nutrition {
+    margin: 30px 0;
 }
 
-.ingredients, .instructions, .nutrition {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start; 
-    margin: 20px 0px;
-    padding: 20px; 
-}
-
-.ingredients h1, .instructions h1, .nutrition h1 {
-    font-size: 25px;
+.ingredients h1,
+.instructions h1,
+.nutrition h1 {
+    font-size: 24px;
     color: peru;
-    margin: 10px 0px;
+    margin-bottom: 10px;
 }
 
-.ingredients li, .instructions ol li {
-    margin: 25px 5px;
+.ingredients ul,
+.instructions ol {
+    padding-left: 20px;
+}
+
+.ingredients li,
+.instructions li {
+    margin-bottom: 10px;
 }
 
 .instructions ol li::marker {
     color: peru;
+    font-weight: bold;
+}
+
+hr {
+    margin: 30px 0;
+    border: none;
+    border-top: 1px solid #ccc;
 }
 
 .nutrition table {
-    width: 50dvw;
-    margin: 40px 0;
+    width: 100%;
     border-collapse: collapse;
-}
-
-.nutrition table tr {
-    border-bottom: 2px solid #ddd;
+    margin-top: 10px;
 }
 
 .nutrition table td,
 .nutrition table th {
     padding: 12px;
+    border-bottom: 2px solid #ddd;
     text-align: center;
 }
 
@@ -117,12 +113,38 @@ hr {
     color: peru;
 }
 
-.attribution { 
-    font-size: 11px; 
-    text-align: center; 
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 20px;
 }
 
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }
 
+@media (max-width: 600px) {
+    .main-div {
+        padding: 20px;
+    }
+
+    .initial-text strong {
+        font-size: 24px;
+    }
+
+    .ingredients h1,
+    .instructions h1,
+    .nutrition h1 {
+        font-size: 20px;
+    }
+
+    .preparation-time h1 {
+        font-size: 18px;
+    }
+
+    .nutrition table td,
+    .nutrition table th {
+        font-size: 12px;
+        padding: 8px;
+    }
+}
