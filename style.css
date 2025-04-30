@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-div {
+    background-color: white;
+    border-radius: 20px;
+    min-height: auto;
+    width: 60dvw;
+    margin-top: 10dvh;
+}
+
+.sub-div {
+    padding: 40px;
+}
+
+.sub-div img {
+    height: 53.5dvh;
+    border-radius: 20px;
+}
+
+.initial-text {
+    text-align: left;
+    text-justify: auto;
+    margin: 3dvh 0;
+}
+
+.initial-text strong {
+    font-size: 30px;
+}
+
+.initial-text p {
+    font-size: 14px;
+    margin-top: 2dvh;
+}
+
+.preparation-time {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    margin: 20px 0;
+    padding: 20px; 
+    border-radius: 10px;
+    width: 53.5dvw;
+    background-color: rgba(255, 0, 234, 0.2);
+}
+
+.preparation-time h1{
+    font-size: 20px; 
+    color: purple;
+   margin: 10px 0px;
+}
+
+.preparation-time li {
+    margin: 15px 5px;
+}
+
+hr {
+    width: 55dvw;
+}
+
+.ingredients, .instructions, .nutrition {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    margin: 20px 0px;
+    padding: 20px; 
+}
+
+.ingredients h1, .instructions h1, .nutrition h1 {
+    font-size: 25px;
+    color: peru;
+    margin: 10px 0px;
+}
+
+.ingredients li, .instructions ol li {
+    margin: 25px 5px;
+}
+
+.instructions ol li::marker {
+    color: peru;
+}
+
+.nutrition table {
+    width: 50dvw;
+    margin: 40px 0;
+    border-collapse: collapse;
+}
+
+.nutrition table tr {
+    border-bottom: 2px solid #ddd;
+}
+
+.nutrition table td,
+.nutrition table th {
+    padding: 12px;
+    text-align: center;
+}
+
+.nutrition table td {
+    color: peru;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
