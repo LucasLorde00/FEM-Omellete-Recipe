@@ -29,8 +29,10 @@ body {
 }
 
 .sub-div img {
-    max-height: 53.5dvh;
+    width: 100%;
+    height: auto;
     border-radius: 20px;
+    display: block;
 }
 
 .initial-text {
