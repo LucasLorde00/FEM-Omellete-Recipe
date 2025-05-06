@@ -1,49 +1,53 @@
-# Recipe Page | Frontend Mentor Challenge
+# 🥚 Recipe Page - Simple Omelette
 
-Este é um projeto desenvolvido como parte de um desafio do [Frontend Mentor](https://www.frontendmentor.io/). O objetivo é praticar e aperfeiçoar minhas habilidades em desenvolvimento web, com foco em **HTML** e **CSS**.
+## 📌 Descrição (Português)
 
-## 🧑‍💻 Sobre o Projeto
+Este projeto foi desenvolvido como parte de um desafio do **Frontend Mentor**, com o objetivo de criar uma página de receita simples e visualmente agradável, utilizando apenas **HTML** e **CSS** puros.
 
-A página apresenta uma receita simples de omelete, organizada em seções claras e estilizadas para proporcionar uma boa experiência ao usuário. Todo o conteúdo foi estruturado com HTML semântico e estilizado com CSS moderno.
+A receita apresentada é de uma **omelete clássica**, com instruções, ingredientes, tempo de preparo e informações nutricionais, dispostos de forma clara e responsiva.
 
-### 🎯 Objetivo
+Os arquivos foram organizados e enviados ao repositório utilizando **Git** e **Git Bash**, seguindo boas práticas de versionamento e estruturação de projetos front-end.
 
-- Aprimorar minhas habilidades com HTML5 e CSS3;
-- Praticar posicionamento de elementos com `flexbox`;
-- Aprender mais sobre responsividade e organização de conteúdo;
-- Reproduzir um layout proposto com fidelidade.
+### 🔍 Recursos:
+- Imagem destacada da receita
+- Descrição e modo de preparo
+- Lista de ingredientes e instruções passo a passo
+- Tabela nutricional por porção
+- Design responsivo com `media queries`
+- Estilo suave com `box-shadow`, `border-radius`, e foco em legibilidade
 
-## 📄 Tecnologias Utilizadas
+---
 
-- **HTML5** — para a estrutura da página;
-- **CSS3** — para o estilo visual e layout;
-- `Flexbox` — para alinhar e organizar os elementos;
-- Unidades como `dvw`, `dvh`, `vh`, `vw` — para garantir escalabilidade;
-- Estilização personalizada de listas e tabelas.
+## 📌 Description (English)
 
-## 📸 Funcionalidades Implementadas
+This project was built as part of a **Frontend Mentor challenge**, with the goal of creating a simple and clean **recipe page** using only **HTML** and **pure CSS**.
 
-- Layout centralizado com `flexbox`;
-- Estilo moderno com bordas arredondadas e cores suaves;
-- Tabela de nutrição centralizada com divisões horizontais;
-- Destaque visual na seção de tempo de preparo;
-- Organização clara em seções: imagem, descrição, ingredientes, instruções e nutrição.
+The featured recipe is a **classic omelette**, complete with preparation instructions, ingredients, prep time, and nutritional values—all laid out in a clean and responsive design.
 
-## 📚 Aprendizados
+All files were structured and version-controlled using **Git** and **Git Bash**, following best practices for front-end organization and deployment.
 
-Durante este projeto, pratiquei:
+### 🔍 Features:
+- Highlighted recipe image
+- Intro and preparation guide
+- Ingredient list and step-by-step instructions
+- Nutrition table per serving
+- Responsive layout using `media queries`
+- Clean and modern styling with `box-shadow`, `border-radius`, and good text spacing
 
-- Estruturação semântica de conteúdo;
-- Alinhamento e centralização com CSS;
-- Estilização de listas e tabelas;
-- Utilização de `margin`, `padding`, `border-radius`, `rgba()` e `::marker`;
-- Como adaptar um layout proposto e aplicar melhorias pessoais.
+---
 
-## 🙋‍♂️ Autor
+## 🚀 Tecnologias | Technologies
 
-Desenvolvido por **Lucas Orge Rodrigues** como parte do processo de evolução contínua na área de desenvolvimento Front-End.
+- HTML5
+- CSS3
+- Flexbox
+- Media Queries
+- Git & GitHub
 
-## 🏁 Status do Projeto
+---
 
-✅ Concluído — aberto a melhorias e sugestões.
+## 🛠️ Como usar | How to use
 
+1. Clone o repositório / Clone the repository:
+```bash
+git clone https://github.com/seu-usuario/recipe-page.git
